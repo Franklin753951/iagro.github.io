@@ -351,6 +351,8 @@ const debouncedScrollHandler = debounce(() => {
 
 window.addEventListener('scroll', debouncedScrollHandler);
 
+
+
 // Initialize everything when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     console.log('IAgro website loaded successfully!');
